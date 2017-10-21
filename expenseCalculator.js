@@ -267,8 +267,8 @@ function clearButton () {
               document.getElementById("filingStatus").selectedIndex = 0;
               
               //This code removes the results when the 'Clear Calcualtor' button is clicked.
-              document.getElementById("clearButton").reset();
-
+              document.getElementById("taxEstimate").innerHTML = ""; 
+              document.getElementById("taxBracket").innerHTML = ""; 
 
 
 }//end of clearButton function
